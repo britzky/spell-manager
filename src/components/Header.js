@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo.jpg'
 import { Link, NavLink } from 'react-router-dom'
 
 export const Header = () => {

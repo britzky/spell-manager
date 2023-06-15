@@ -1,6 +1,6 @@
 
 export const PageNotFound = () => {
   return (
-    <div>PageNotFound</div>
+    <main>PageNotFound</main>
   )
 }
