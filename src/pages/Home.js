@@ -11,15 +11,15 @@ export const Home = () => {
         <h2 className="font-bold text-3xl my-10 text-gray-700 dark:text-white text-center">One stop shop for displaying information about spells and organize your current spells for your next adventure.</h2>
       </div>
       <div className="flex flex-shrink flex-col md:flex-row gap-16 items-center my-48 border-b pb-28 border-dark-900">
-        <img className="max-w-md rounded-xl" src={Mage} alt="gnome mage with blue egg" />
-        <p className="text-gray-700 dark:text-white text-2xl">Select class or school to see all of the spells for your class or school.</p>
+        <img className="md:max-w-md rounded-xl" src={Mage} alt="gnome mage with blue egg" />
+        <p className="text-gray-700 dark:text-white text-2xl text-center">Select class or school to see all of the spells for your class or school.</p>
         <ul>
           <li></li>
         </ul>
       </div>
       <div className="flex flex-shrink flex-col md:flex-row-reverse gap-16 my-10 items-center" >
-        <img className="max-w-md rounded-xl" src={Santa} alt="Santa with fist clenched" />
-        <p className="text-gray-700 dark:text-white text-2xl">Or if you already know what spell you're curious about, just use the search bar to find it!</p>
+        <img className="md:max-w-md rounded-xl" src={Santa} alt="Santa with fist clenched" />
+        <p className="text-gray-700 dark:text-white text-2xl text-center">Or if you already know what spell you're curious about, just use the search bar to find it!</p>
       </div>
     </main>
   )
