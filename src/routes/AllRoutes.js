@@ -8,7 +8,7 @@ export const AllRoutes = () => {
         <Route path="" element={<Home />} />
         <Route path="spell/:slug" element={<SpellInfo />} />
         <Route path="search" element={<Search />} />
-        <Route path="filter/:className/:schoolName/:level" element={<SpellList />} />
+        <Route path="filter" element={<SpellList />} />
         <Route path="*" element={<PageNotFound />} />
     </Routes>
     </div>

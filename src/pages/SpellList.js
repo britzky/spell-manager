@@ -1,11 +1,15 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import { useSpells } from '../hooks/useFetchSpells';
 
 export const SpellList = () => {
-  const { className, schoolName, level } = useParams();
+  const [searchParams] = useSearchParams();
+  const className= searchParams.get('className');
+  const schoolName = searchParams.get('schoolName');
+  const level = searchParams.get('level');
   const { spells, loading } = useSpells();
   const [filteredSpells, setFilteredSpells] = useState([]);
+
 
 
   useEffect(() => {
